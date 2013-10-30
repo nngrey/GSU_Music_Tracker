@@ -1,0 +1,67 @@
+<DOCTYPE html>
+	
+<head>
+	<title>Music Tracker</title>
+	<link rel="stylesheet" type="text/css" href="albums.css"/>
+</head>
+
+<body>
+	<div>
+
+	<h1>Music Tracker</h1>
+
+
+<h2>Add an album to your collection:</h2>
+	<p><form action="insertAlbum.php" method="post">
+
+		Title: <input type="text" name="title" />
+		Artist/Band: <input type="text" name="artist" />
+		Year Released: <input type="text" name="yearReleased" />
+		<input type="submit" />
+	</form></p>
+
+<h2>Add a band:</h2>
+	<p><form action="insertAlbum2.php" method="post">
+
+		Band Name: <input type="text" name="bandName" />
+		Lead Singer: <input type="text" name="singer" />
+		Year Formed: <input type="text" name="dateFormed" />
+		<input type="submit" />
+	</form></p>
+
+<h2>Add an artist:</h2>
+	<p><form action="insertAlbum3.php" method="post">
+
+		Name: <input type="text" name="nameArtist" />
+		Best Song: <input type="text" name="song" />
+		Year Born: <input type="text" name="born" />
+		<input type="submit" />
+	</form></p>
+
+<table>
+<tr>
+<td>
+<form action='viewAlbum.php'>
+<input type='submit' value='View Albums'>
+</form>
+</td>
+
+<td>
+<form action='viewBand.php'>
+<input type='submit' value='View Bands'>
+</form>
+</td>
+
+<td>
+<form action='viewArtists.php'>
+<input type='submit' value='View Artists'>
+</form>
+</td>
+</tr>
+</table>
+
+</div>
+</body>
+
+</html>
+

@@ -1,0 +1,50 @@
+<html> 
+<head>
+
+	<title>Login for Stock Quotes</title>
+
+
+<script type="text/javascript">
+
+<!--
+function validateForm(){ 
+   if(document.myForm.userName.value == ""){
+    alert("Please Enter a First Name");
+
+   }
+   if(document.myForm.password.value == ""){
+    alert("Please Enter a Last Name"); 
+  
+   }
+    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    if (reg.test(document.myForm.email.value) == false){
+          alert("Please Enter a Valid Email");
+  }else{
+window.open("http://codd.cs.gsu.edu/~c43740/Assign6/albums.html");
+//return true; action = "http://codd.cs.gsu.edu/~c43740/Assign6/albums.html" 
+}
+}
+//-->
+</script>
+
+</head> 
+
+<body>
+
+  <h1> Please fill in the following information to access your music tracker: </h1>
+ 
+<form name="myForm" method="post" onsubmit="return validateForm()"> 
+<div id="userNameAlert"></div>  
+Username: <input name="userName" type="text"> 
+<p> 
+<div id="passwordAlert"></div> 
+Password: <input name="password" type="text"> 
+<p> 
+<div id="emailAlert"></div> 
+Email: <input name="email" type="text"> 
+<p> 
+<input type="submit" value="Login">  
+</form> 
+
+</body> 
+</html> 
