@@ -1,3 +1,3 @@
-# GSU - Fundamentals of Web Dev Assignment - Music_Tracker
+# GSU - Music_Tracker
 
-A PHP catalog app for organizing a music library. 
+A PHP catalog app for organizing a music library. Fundamentals of Web Dev Assignment.
