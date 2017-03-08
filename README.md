@@ -1,3 +1,3 @@
 # GSU - Music_Tracker
 
-A PHP catalog app for organizing a music library. Fundamentals of Web Dev Assignment.
+A PHP catalog app for organizing a music library. Georgia State University, Fundamentals of Web Dev Assignment.
